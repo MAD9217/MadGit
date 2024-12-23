@@ -1,0 +1,46 @@
+body{
+    background-color: #FF0000;
+    color: #0F0;
+    font-size: x-large;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: gray;
+    border: 1px solid black;
+}
+
+.el{
+    background-color: #000;
+    color: #fff;
+    border: 10px solid blue;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    
+    
+   
+}
+.el1{
+    /*flex-grow: 2;*/
+}
+.el5{
+    /*flex-shrink: 2;*/
+}
+.car{
+   /* width: 50%;
+    height: 700px;*/
+    border-radius: 50%;
+    border: 10px dotted blue;
+   
+}
+
+p{
+    background-color: #fff;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
